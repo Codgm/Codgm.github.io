@@ -88,6 +88,7 @@ body[data-theme="light"] .page__hero--overlay {
     font-size: 0.98em;
     backdrop-filter: blur(8px);
     padding-left: 0 !important;
+    border-radius: 12px 12px 0 0;
 }
 .toc::before { content: none; }
 .toc a { 
@@ -112,6 +113,16 @@ body[data-theme="light"] .page__hero--overlay {
 }
 .toc__menu a:last-child {
     border-bottom: none;
+}
+
+.toc .nav__title {
+    color: #fff;
+    font-size: .75em;
+    background: var(--accent-secondary);
+    border-radius: 12px 12px 0 0;
+    margin: 0;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
 }
 
 /* 코드 블록 - 더 높은 대비와 가독성 */

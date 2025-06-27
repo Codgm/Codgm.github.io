@@ -2,7 +2,6 @@
 layout: single
 title: "Next.js 기반 포트폴리오 사이트 제작 회고"
 subtitle: "SEO, 반응형, 커스텀 커서, 프로젝트 카드 확장, 실전 노하우까지"
-author: "SEO GYUMIN"
 categories: ["포트폴리오 사이트 제작", "프로젝트"]
 tags: ["Next.js", "TypeScript", "포트폴리오", "커스터마이징", "회고", "Coding"]
 author_profile: true
