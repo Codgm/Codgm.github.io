@@ -215,6 +215,19 @@ code:not(pre code) {
     transform: none !important;
 }
 
+.greedy-nav .hidden-links {
+    position: absolute;
+    top: 100%;
+    inset-inline-end: 0;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--card-bg);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
 .btn, .button {
     background: var(--accent-primary);
     color: var(--bg-primary);
