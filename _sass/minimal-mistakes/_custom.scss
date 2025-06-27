@@ -119,10 +119,7 @@ body[data-theme="light"] .page__hero--overlay {
     color: #fff;
     font-size: .75em;
     background: var(--accent-secondary);
-    border-radius: 12px 12px 0 0;
-    margin: 0;
-    padding-top: 0.7em;
-    padding-bottom: 0.7em;
+    border-start-end-radius: 0px;
 }
 
 /* 코드 블록 - 더 높은 대비와 가독성 */
