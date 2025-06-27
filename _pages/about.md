@@ -30,7 +30,6 @@ toc: true
 ## 📢 SNS & 연락처
 - [GitHub](https://github.com/Codgm)
 - [Instagram](https://instagram.com/02_gyu0)
-- Email: your@email.com
 
 ## 💡 한마디
 > "본질에 집중하고, 꾸준히 성장하는 개발자가 되겠습니다!" 
