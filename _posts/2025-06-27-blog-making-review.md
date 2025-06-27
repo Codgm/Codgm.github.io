@@ -6,6 +6,7 @@ date: 2025-06-25
 author: "SEO GYUMIN"
 categories: ["블로그제작", "프로젝트"]
 tags: ["Jekyll", "Minimal Mistakes", "블로그", "커스터마이징", "회고", "Coding"]
+author_profile: true
 comments: true
 share: true
 related: true
