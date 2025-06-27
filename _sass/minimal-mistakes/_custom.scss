@@ -23,7 +23,7 @@ body[data-theme="light"] {
     --accent-secondary: #a855f7;
     --card-bg: rgba(255, 255, 255, 0.986);
     --border-color: rgba(0,0,0,0.12);
-    --code-bg: #ffffffc7;
+    --code-bg: #202020c7;
     --code-text: #2d3748;
     --hover-bg: rgba(124,58,237,0.08);
     --pagination-hover-text: #ffffff;
@@ -527,9 +527,10 @@ a, button, .greedy-nav a, .masthead__menu a, .theme-switch-vertical .switch-slid
 .page__content a:not(.btn):not(.button) {
     color: var(--accent-primary);
     text-decoration: underline;
-    text-decoration-color: rgba(168,85,247,0.3);
+    text-decoration-color: rgba(168, 85, 247, 0.3);
     text-underline-offset: 2px;
     transition: all 0.2s ease;
+    font-weight: bold;
 }
 
 .page__content a:not(.btn):not(.button):hover {
