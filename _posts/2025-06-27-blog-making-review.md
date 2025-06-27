@@ -5,11 +5,11 @@ subtitle: "테마 커스터마이징, 검색, 다크/라이트, 댓글, 실전 �
 author: "SEO GYUMIN"
 categories: ["블로그제작", "프로젝트"]
 tags: ["Jekyll", "Minimal Mistakes", "블로그", "커스터마이징", "회고", "Coding"]
-author_profile: true
 comments: true
 share: true
 related: true
 toc: true
+author_profile: true
 ---
 
 ## Jekyll(Minimal Mistakes) 기반 개인 블로그 제작 회고
