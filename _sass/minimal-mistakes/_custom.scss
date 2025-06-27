@@ -613,3 +613,10 @@ body.error404 .page__footer {
   color: var(--text-secondary);
   border-bottom: 2px solid var(--bg-primary);
 }
+
+.toc .nav__title {
+    color: #fff;
+    font-size: .75em;
+    background: var(--accent-secondary);
+    border-start-end-radius: 4px;
+}
