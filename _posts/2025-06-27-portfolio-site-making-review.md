@@ -200,6 +200,7 @@ const navItems = [
 - 탭별로 스킬을 분류하고, 각 스킬의 숙련도, 경험, 프로젝트 수를 시각적으로 보여줬습니다.
 - 탭 클릭 시 해당 카테고리의 스킬만 보여주고, 마우스 오버 시 상세 툴팁이 나타나도록 했습니다.
 
+{% raw %}
 ```tsx
 <div className={styles.skillsTabs}>
   {skillCategories.map((category, index) => (
@@ -241,6 +242,7 @@ const navItems = [
   ))}
 </div>
 ```
+{% endraw %}
 
 ### 6-4. ProjectsSection & ProjectCard
 
