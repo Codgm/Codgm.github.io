@@ -4,7 +4,7 @@ title: "Github Jekyll 기반 개인 블로그 제작 회고"
 subtitle: "테마 커스터마이징, 검색, 다크/라이트, 댓글, 실전 노하우까지"
 date: 2025-06-25
 author: "SEO GYUMIN"
-categories: ["블로그제작"]
+categories: ["블로그제작", "프로젝트"]
 tags: ["Jekyll", "Minimal Mistakes", "블로그", "커스터마이징", "회고", "Coding"]
 comments: true
 share: true
