@@ -87,6 +87,7 @@ body[data-theme="light"] .page__hero--overlay {
     border-left: 4px solid var(--accent-primary);
     font-size: 0.98em;
     backdrop-filter: blur(8px);
+    padding-left: 0 !important;
 }
 .toc::before { content: none; }
 .toc a { 
@@ -99,6 +100,10 @@ body[data-theme="light"] .page__hero--overlay {
     text-decoration: underline;
 }
 
+.toc__menu {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
 .toc__menu a {
     border-bottom: 1.5px solid var(--border-color);
     display: block;
