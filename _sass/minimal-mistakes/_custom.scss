@@ -12,6 +12,7 @@ body[data-theme="dark"] {
     --code-text: #f8f8f2;
     --hover-bg: rgba(168,85,247,0.1);
     --pagination-hover-text: var(--bg-primary);
+    --border-color-line: #000000;
 }
 
 body[data-theme="light"] {
@@ -27,6 +28,7 @@ body[data-theme="light"] {
     --code-text: #2d3748;
     --hover-bg: rgba(124,58,237,0.08);
     --pagination-hover-text: #ffffff;
+    --border-color-line: #ffffffe8;
 }
 
 /* 전체 배경 - CSS 변수 사용 */
@@ -89,6 +91,7 @@ body[data-theme="light"] .page__hero--overlay {
     backdrop-filter: blur(8px);
     padding-left: 0 !important;
     border-radius: 12px 12px 0 0;
+    border: 1px solid var(--border-color-line);
 }
 .toc::before { content: none; }
 .toc a { 
@@ -119,7 +122,6 @@ body[data-theme="light"] .page__hero--overlay {
     color: #fff;
     font-size: .75em;
     background: var(--accent-secondary);
-    border-start-end-radius: 0px;
 }
 
 /* 코드 블록 - 더 높은 대비와 가독성 */
@@ -636,4 +638,10 @@ body.error404 .page__footer {
     color: #fff;
     font-size: .75em;
     background: var(--accent-secondary);
+}
+
+@media (prefers-color-scheme: dark) {
+  .toc {
+    border: 1px solid #000;
+  }
 }
