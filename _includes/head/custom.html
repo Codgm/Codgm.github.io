@@ -2,6 +2,10 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+{% if page.use_math %}
+    {% include mathjax-support.html %}
+{% endif %}
+
 <!-- end custom head snippets -->
 <!-- 헤더 서치토글 옆에 다크/라이트 토글 버튼 -->
 <style>
